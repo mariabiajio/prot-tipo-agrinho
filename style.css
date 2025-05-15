@@ -1,45 +1,60 @@
-/* Estilo geral */
 body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background: #eafbea;
+  background: #f0fff0;
   color: #333;
 }
 
-/* Cabeçalho */
 header {
   background-color: #4CAF50;
   color: white;
-  padding: 30px 0;
   text-align: center;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
-
-header h1 {
-  margin: 0;
-  font-size: 2.5rem;
-}
-
-header p {
-  margin: 5px 0 0;
-  font-size: 1.2rem;
-}
-
-/* Conteúdo principal */
-main {
   padding: 30px 20px;
+}
+
+.logo {
+  width: 80px;
+  margin-bottom: 10px;
+}
+
+nav {
+  background-color: #81C784;
+  padding: 10px 0;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin: 0;
+  padding: 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+main {
   max-width: 900px;
   margin: auto;
+  padding: 20px;
 }
 
 .card {
-  background-color: #fff;
+  background: white;
   border-left: 6px solid #4CAF50;
-  padding: 20px;
   margin-bottom: 20px;
+  padding: 20px;
   border-radius: 10px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
 .card h2 {
@@ -47,17 +62,25 @@ main {
   color: #2e7d32;
 }
 
-/* Lista de atividades */
-ul {
-  padding-left: 20px;
-  list-style-type: square;
+button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 10px;
+  border-radius: 5px;
+  cursor: pointer;
 }
 
-/* Rodapé */
-footer {
+button:hover {
   background-color: #388E3C;
-  color: white;
-  text-align: center;
-  padding: 15px 0;
-  margin-top: 40px;
 }
+
+footer {
+  text-align: center;
+  background: #388E3C;
+  color: white;
+  padding: 15px;
+}
+
+ 
